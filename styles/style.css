@@ -32,6 +32,7 @@ button {
 button:hover {
     background: #9dd809;
 }
+
 /* -----> primary end <----- */
 /* header section  */
 header,
@@ -149,9 +150,11 @@ header,
     max-width: 550px;
     text-align: center;
 }
-#hot-deal .hot-deal-text *{
+
+#hot-deal .hot-deal-text * {
     margin-bottom: 24px;
 }
+
 #hot-deal .hot-deal-text h2 {
     color: #272727;
     font-size: 40px;
@@ -160,27 +163,74 @@ header,
     letter-spacing: 0%;
     text-align: left;
 }
+
 .hot-deal .hot-deal-img {
     max-width: 318px;
 }
+
 #hot-deal .hot-deal-text h2 .important {
     color: #E55473;
 }
+
 #news-letter {
     margin: 128px 0px;
 }
+
 .news-letter-main {
     background-image: url('../flower-shop-main/FlowerAsset/Rectangle-9.png');
     padding: 10px;
 }
+
 .news-letter-form {
     text-align: center;
 }
-.news-letter-form input{
+
+.news-letter-form input {
     padding: 10px;
     height: 48px;
     width: 525px;
     margin: 50px 20px;
     border-radius: 8px;
     border: none;
+}
+
+/* ----- footer ----- */
+footer {
+    height: 337px;
+    background: rgb(17, 16, 16);
+}
+
+.footer-text * {
+    color: white;
+    padding-top: 10px;
+}
+
+.footer-text h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43px;
+    letter-spacing: 0%;
+}
+
+.footer-text p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.copyRight {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
