@@ -32,9 +32,7 @@ button {
 button:hover {
     background: #9dd809;
 }
-
 /* -----> primary end <----- */
-
 /* header section  */
 header,
 #hot-deal {
@@ -167,4 +165,22 @@ header,
 }
 #hot-deal .hot-deal-text h2 .important {
     color: #E55473;
+}
+#news-letter {
+    margin: 128px 0px;
+}
+.news-letter-main {
+    background-image: url('../flower-shop-main/FlowerAsset/Rectangle-9.png');
+    padding: 10px;
+}
+.news-letter-form {
+    text-align: center;
+}
+.news-letter-form input{
+    padding: 10px;
+    height: 48px;
+    width: 525px;
+    margin: 50px 20px;
+    border-radius: 8px;
+    border: none;
 }
