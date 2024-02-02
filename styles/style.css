@@ -16,7 +16,7 @@ p {
     line-height: 30px;
 }
 
-.button {
+button {
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -36,7 +36,8 @@ button:hover {
 /* -----> primary end <----- */
 
 /* header section  */
-header {
+header,
+#hot-deal {
     background: #E554731A;
 }
 
@@ -133,6 +134,37 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+
 .flower-top {
     margin-top: 20px;
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hot-deal .hot-deal-img {
+    max-width: 318px;
+}
+#hot-deal .hot-deal-text h2 .important {
+    color: #E55473;
 }
