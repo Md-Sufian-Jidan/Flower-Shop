@@ -32,6 +32,7 @@ p {
 button:hover {
     background: #9dd809;
 }
+
 /* -----> primary end <----- */
 
 /* header section  */
@@ -75,36 +76,44 @@ header {
     width: 100%;
     vertical-align: middle;
 }
+
 #featured {
     padding: 100px 0;
 }
+
 .section-content {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    gap : 20px;
+    gap: 20px;
 }
+
 .section-content .flower .flower-img {
     background-color: #eb9cad;
     border-radius: 300px 300px 0px 0px;
-    padding:  30px 25px;
+    padding: 30px 25px;
     height: 500px;
     display: flex;
     align-items: end;
 }
+
 .section-content .flower .flower-img img {
     width: 100%;
 }
-.section-content .flower .pink{
+
+.section-content .flower .pink {
     background: #A72162;
 }
-.section-content .flower .blue{
+
+.section-content .flower .blue {
     background: #0597A0;
 }
-.section-content .flower .green{
+
+.section-content .flower .green {
     background: #477D11;
 }
-.section-content .flower p{
+
+.section-content .flower p {
     color: #272727;
     text-align: center;
     margin-top: 16px;
@@ -112,4 +121,18 @@ header {
     font-weight: 700;
     line-height: 35px;
     text-decoration: underline;
+}
+
+.flower-section {
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 30px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flower-top {
+    margin-top: 20px;
 }
