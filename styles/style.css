@@ -9,11 +9,12 @@
 }
 
 /* -----> primary <-----*/
-p {
+p ,.instagram-text{
     color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding-bottom: 20px;
 }
 
 button {
@@ -52,7 +53,7 @@ header,
     margin: 20px auto;
 }
 
-.section-heading h2 {
+.section-heading h2 ,.instagram-text {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -172,6 +173,14 @@ header,
     color: #E55473;
 }
 
+.instagram-img{
+    display: flex;
+    gap: 10px;
+}
+.instagram-img-size{
+    height: 297px;
+    width: 256px;
+}
 #news-letter {
     margin: 128px 0px;
 }
@@ -201,20 +210,21 @@ footer {
 }
 
 .footer-text * {
-    color: white;
     padding-top: 10px;
 }
 
 .footer-text h2 {
+    color: white;
     padding-top: 100px;
     text-align: center;
-    font-family: Lato;
     font-size: 36px;
     font-weight: 800;
     line-height: 43px;
     letter-spacing: 0%;
 }
-
+.footer-text h2 .important {
+    color: #E55473;
+}
 .footer-text p {
     color: rgba(255, 255, 255, 0.9);
     font-size: 18px;
@@ -225,9 +235,8 @@ footer {
     padding: 0px 50px;
 }
 
-.copyRight {
+.footer-text .copyRight {
     color: rgba(255, 255, 255, 0.4);
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
